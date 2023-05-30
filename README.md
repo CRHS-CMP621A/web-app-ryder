@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/_AfzJBUU)
 # JS-Web-App
-## Project Name:
-#### Developers: 
-#### Date and Course:
+## Project Name: RJMK Auto Detailing
+#### Developers: Ryder Mackinnon
+#### Date and Course: 5/29/23 CMP 621-A
 <hr>
 
 ### Problem Or Situation to Improve
@@ -10,7 +10,7 @@
 Audience: Who would use your product and where? 
 If you are re-building an app that already exists, then explain what the issue is with the current app that you want to improve.
 
->> 
+>> This summer me and my friend will be detailing cars, this will require much organization and my web application will intend to take the manual load of customer organization, allowing automatic quotes, contact information, and more
 
 
 
