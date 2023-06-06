@@ -5,7 +5,9 @@
 
 
 
-
+.visualcrossing-wx-widget{
+  background-color: transparent;
+}
 
 html,body{
   width: 100%;
@@ -55,12 +57,48 @@ ul {
 
     .main {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
+      align-items: center;
      
     }
     
+    .visualcrossing-wx-widget {
+      background-color: #111;
+      color: #bdb0b0;
+  }
   
-  
+  .imgContainer {
+    padding-right: 22px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+.imageOne{
+ grid-row: 1;
+  gap: 25px;
+  border: 0.5em black solid;
+   filter:grayscale(50%);
+   overflow:hidden;
+   object-fit: contain;
+   border-radius: 10%;
+
+ 
+}
+
+.imageTwo{
+grid-row: 3;
+gap: 25px;
+border: 0.5em black solid;
+ filter:grayscale(50%);
+ overflow:hidden;
+ object-fit: contain;
+ border-radius: 10%;
+}
+img{
+  border-radius: 20%;
+}
+
+
   .Sidebar { 
     height: 100%;
     border-radius: 25px;
@@ -119,9 +157,10 @@ gap: 15px;
     text-align: center;
     background-color: cornsilk;
     padding: 15px;
-    place-items: center;
     background-color: #333;
-    height: 50%
+    display: flex;
+    height: 100%;
+    align-items: center;
    
     
     
@@ -185,6 +224,7 @@ gap: 15px;
     .contactUs{
       font-size: 14px;
       color:white;
+      
       
     }
     
