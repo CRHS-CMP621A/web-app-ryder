@@ -1,4 +1,4 @@
-.logo {
+a{
     display: grid;
     grid-template-areas: 
     "R J"
@@ -28,6 +28,4 @@
     font-family: 'Permanent Marker', cursive;
   }
   
-  .header{
-    display: flex;
-  }
+  

@@ -55,6 +55,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+    
   }
   
   .pricing-table {
@@ -281,6 +282,10 @@
     }
   } 
   
+  .pricing-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
 
 
 

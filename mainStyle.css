@@ -270,5 +270,9 @@ gap: 15px;
       }
       
 
-    
+      @media only screen and (max-width: 880px){
+        .imgContainer{
+          display: none;
+        }
+      }
       
