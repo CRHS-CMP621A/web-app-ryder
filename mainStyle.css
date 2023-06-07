@@ -121,8 +121,8 @@ gap: 15px;
     padding: 15px;
     place-items: center;
     background-color: #333;
-    height: 50%
-   
+    height: 100%;
+    display:flex;
     
     
        
@@ -185,6 +185,7 @@ gap: 15px;
     .contactUs{
       font-size: 14px;
       color:white;
+      
       
     }
     
