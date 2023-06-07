@@ -1,0 +1,33 @@
+.logo {
+    display: grid;
+    grid-template-areas: 
+    "R J"
+    "M K";
+    font-size: 24px;
+    font-weight: bold;
+    place-items: center;
+    margin:20px;
+  }
+  .R {
+    grid-area: R;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .J {
+    grid-area: J;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .M {
+    grid-area: M;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .K {
+    grid-area: K;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .header{
+    display: flex;
+  }

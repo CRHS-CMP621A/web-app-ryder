@@ -14,6 +14,7 @@
     color: #FFF;
     font-size: 62.5%;
     font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+    
   }
   
   ul {
@@ -51,6 +52,9 @@
   .pricing-wrapper {
     width: 960px;
     margin: 40px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
   }
   
   .pricing-table {
@@ -63,6 +67,7 @@
     -webkit-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
     transition: all 0.25s ease;
+    
   }
   
   .pricing-table:hover {
@@ -237,7 +242,7 @@
         margin-left: 10px;
       }
 
-    
+   
  
   /** ================
    * Responsive
