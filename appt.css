@@ -1,4 +1,13 @@
-a{
+
+
+
+.top-of-page{
+  display: flex;
+  border: 2px rgb(21, 143, 161) solid;
+}
+
+
+a , .logo {
     display: grid;
     grid-template-areas: 
     "R J"

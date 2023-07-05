@@ -208,7 +208,7 @@
     width: fit-content;
     font-family: 'Permanent Marker', cursive;
   }
-    .logo {
+    .logo, head {
         display: grid;
         grid-template-areas: 
         "R J"
