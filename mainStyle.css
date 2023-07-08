@@ -68,7 +68,11 @@ nav ul {
       font-size: 24px;
       font-weight: bold;
       place-items: center;
-      margin:20px;
+      margin-left: 5%;
+      background-color: white;
+      border-radius: 25%;
+      padding: 1%;
+      border: 2px solid rgb(0, 0, 0);
     }
     .R {
       grid-area: R;
@@ -91,23 +95,32 @@ nav ul {
     }
     
     .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      display:flex; 
+      justify-content: center;
       width: 100%;
+    
     }
 
      .welcomeText {
       display: flex;
       justify-content: center;
       font-family: 'Bungee Spice', cursive;
-      margin-right: 10px;
       text-align: center;
       flex-grow: 1;
-      margin: 0;
-      flex-wrap: wrap;
+      
     }
     
-   
-   
-   
+   .contBoxHead{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   font-family: 'Permanent Marker', cursive;
+   letter-spacing: 1.5px;
+   border-radius: 20%;
+   padding: 10px;
+   font-weight: 750;
+   }

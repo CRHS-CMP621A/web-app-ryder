@@ -1,0 +1,26 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.exteriorEst{
+ border: 2px solid black;
+grid-column: 3;
+background-color: white;
+padding: 1%;
+
+}
+.interiorEst{
+    border: 2px solid black;
+    background-color: white;
+    padding: 1%;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-weight: bold;
+}

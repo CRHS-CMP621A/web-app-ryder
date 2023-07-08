@@ -37,4 +37,7 @@ a , .logo {
     font-family: 'Permanent Marker', cursive;
   }
   
+  .Box.contBoxHead{
+border: 2px solid orangered;
+  }
   
