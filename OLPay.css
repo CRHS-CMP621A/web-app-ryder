@@ -53,8 +53,7 @@
     width: 960px;
     margin: 40px auto 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
+    
     
   }
   
@@ -243,6 +242,36 @@
         margin-left: 10px;
       }
 
+
+       .navBar nav ul {
+          display: flex;
+            padding: 10px;
+            margin: 20px;
+            overflow: hidden;
+            background-color: #333;
+            justify-content: space-around;
+            list-style-type: none;
+            font-family: 'Permanent Marker', cursive;
+          }
+          
+         .navBar nav li {
+            float: left;
+          }
+          
+         .navBar nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          /* Change the link color to #111 (black) on hover */
+         nav li a:hover {
+            background-color: #111;
+          }
+      
+
    
  
   /** ================
@@ -266,6 +295,7 @@
    @media only screen and (max-width: 767px) {
     .pricing-wrapper {
       width: 420px;
+      flex-direction: column;
     }
   
     .pricing-table {
@@ -284,8 +314,10 @@
   
   .pricing-wrapper{
     display: flex;
-    flex-direction: column;
   }
+  html,body{
+    width: 100%;
+    height: 100%;}
 
 
 
