@@ -3,6 +3,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 10%;
     margin-right:10%;
+
 }
 .exteriorEst{
     height: fit-content;
@@ -31,7 +32,7 @@ border-radius: 5%;
 p{
     font-weight: bold;
 }
-.customPackagesInfo{
+.grandTotal{
    
     display: flex;
     align-items: center;
